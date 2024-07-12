@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chartreuse;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: rgb(122, 0, 120);
+    width: 500px;
+    height: 700px;
+    margin: 2%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box{
+    background-color: azure;
+    width: 100%;
+    height: 200px;
+    margin-top: 4%;
+}
+.btn-box{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    display: grid;    
+    grid-template-columns: auto auto auto auto;
+    /* align-content: space-between; */
+    padding: 20px;
+    padding-top: 30px;
+}
+
+button{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(122, 0, 120);
+    font-weight: bold;
+}
+
+.sp-btn{
+    background-color: bisque;
+}
+
+.sp-btn:hover{
+    
+}
+.sp-btn:active{
+    background-color: rgb(212, 116, 0);
+}
