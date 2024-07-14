@@ -15,35 +15,35 @@
         <div class="box">
             <!--Display Field-->
             <div class="input-box">
-                <input type="text" name="input-field" id="field">
+                <input type="text" name="input-field" id="field" value="0">
             </div>
 
             <!--Button Field-->
             <div class="btn-box">
-                <button class="sp-btn">AC</button> <!--clear-->
-                <button class="sp-btn">^</button> <!--exponent-->
-                <button class="sp-btn">%</button> <!--percentage-->
-                <button class="sp-btn">/</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="sp-btn">x</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="sp-btn">-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="sp-btn">+</button>
-                <button>0</button>
-                <button>.</button>
-                <button>C</button> <!-- backspace -->
-                <button class="sp-btn">=</button>
+                <button class="sp-btn" value="all-clear" id="all-clear" onclick="allClear()">AC</button> <!--clear-->
+                <button class="sp-btn" value="**" id="exp" onclick="btn('exp')">^</button> <!--exponent-->
+                <button class="sp-btn" value="%" id="percentage" onclick="btn('percentage')">%</button> <!--percentage-->
+                <button class="sp-btn" value="/" id="div" onclick="btn('div')">/</button>
+                <button value="7" id="7" onclick="btn('7')">7</button>
+                <button value="8" id="8" onclick="btn('8')">8</button>
+                <button value="9" id="9" onclick="btn('9')">9</button>
+                <button class="sp-btn" value="*" id="mul" onclick="btn('mul')">x</button>
+                <button value="4" id="4" onclick="btn('4')">4</button>
+                <button value="5" id="5" onclick="btn('5')">5</button>
+                <button value="6" id="6" onclick="btn('6')">6</button>
+                <button class="sp-btn" value="-" id="sub" onclick="btn('sub')">-</button>
+                <button value="1" id="1" onclick="btn('1')">1</button>
+                <button value="2" id="2" onclick="btn('2')">2</button>
+                <button value="3" id="3" onclick="btn('3')">3</button>
+                <button class="sp-btn" value="+" id="add" onclick="btn('add')">+</button>
+                <button value="0" id="0" onclick="btn('0')">0</button>
+                <button value="." id="dot" onclick="btn('dot')">.</button>
+                <button value="clear" id="clear" onclick="clear()">C</button> <!-- clear -->
+                <button class="sp-btn" value="equal" id="equal" onclick="equal()">=</button>
             </div>
 
         </div>
     </div>
-
+    <script src="assest/script.js"></script>
 </body>
 </html>
